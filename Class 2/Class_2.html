@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Programming Class 2</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+    <p>In 2nd web programming class, we will learn about 
+        HTML forms.
+    </p>
+
+    <form method="post" action="mailto:hafijul2@cse.uiu.ac.bd">
+        <h2>Text and Password</h2>
+        <p>Name: <input type="text" id="name" name="name" size="20" maxlength="40"></p>
+        <p>Password: <input type="password" id="password" name="password" size="20" maxlength="10"></p>
+
+        <h2>Check Boxes</h2>
+        <p>Select your favorite movies:</p>
+        <p><input type="checkbox" id="shawshank" name="movie" value="shawshank"> The Shawshank Redemption </p>
+        <p><input type="checkbox" id="memento" name="movie" value="memento"> Memento </p>
+        <p><input type="checkbox" id="inception" name="movie" value="inception"> Inception </p>
+
+        <h2>Selection Form</h2>
+        <p>Select your musical taste (you can select more than one):</p>
+        <p>
+            <select multiple id = "music" name="music" size="10" >
+                <option value="rock" selected>Rock</option>
+                <option value="metal">Metal</option>
+                <option value="hiphop">Hip Hop</option>
+                <option value="jazz">Jazz</option>
+            </select>
+        </p>
+
+        <h2>Submit and Reset</h2>
+        <p><input type="submit" value="Submit Form"> 
+            <input type="reset" value="Reset">
+        </p>
+    </form>
+</body>
+</html>
